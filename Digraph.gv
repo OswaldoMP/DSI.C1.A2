@@ -1,0 +1,14 @@
+digraph {
+	140660587960248 [label="[0, 2]" color=lightblue2 style=filled]
+	140660570771408 [label="[2, 2]" color=lightblue2 style=filled]
+	140660587895104 [label="[1, 2]" color=lightblue2 style=filled]
+	140660566304360 [label="[0, 1]" color=lightblue2 style=filled]
+	140660587764648 [label="[0, 2]" color=lightblue2 style=filled]
+	140660570771408 [label="[2, 2]" color=red]
+	140660587895104 [label="[1, 2]" color=red]
+	140660587764648 [label="[0, 2]" color=red]
+	140660587895104 -> 140660587960248
+	140660587895104 -> 140660570771408
+	140660587764648 -> 140660587895104
+	140660587764648 -> 140660566304360
+}
